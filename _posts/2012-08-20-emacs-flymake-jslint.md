@@ -115,7 +115,7 @@ category: emacs
 
 完成后重启emacs，就能看到效果啦！下面是我的屏幕截图：
 
-![flymake-jslint](/imgs/2012-08-20-flymake-jslint.png)
+![flymake-jslint](/img/2012-08-20-emacs.png)
 
 ### 自定义规则
 

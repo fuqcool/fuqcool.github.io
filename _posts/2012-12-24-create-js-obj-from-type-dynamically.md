@@ -10,22 +10,18 @@ category: javascript
 
 假设，我们要创建一个类型为Type对象。第一步，先创建一个空函数，把这个空函数的prototype属性设置成为Type的prototype属性，然后对空函数做new操作，这样，我们就能得到一个空的对象，它的原型指向Type的原型。
 
-{% highlight javascript %}
-
+``` javascript
 var Constructor = function () {};
 Constructor.prototype = Type.prototype;
 
 var obj = new Constructor();
-
-{% endhighlight %}
+```
 
 然后，我们需要进行对象创建的第二步，把刚创建的对象做为上下文，调用Type的函数体。这里，我们没有使用new操作，只是把它作为普通函数来调用。
 
-{% highlight javascript %}
-
+``` javascript
 Type.apply(obj, args);
-
-{% endhighlight %}
+```
 
 函数执行完后，对象的属性被创建，整个对象的构造也就完成了。
 
