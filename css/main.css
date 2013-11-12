@@ -137,10 +137,15 @@ a:hover {
 /*****************************************************************************/
 
 /* standard */
+.post {
+    margin-bottom: 40px;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 .4em;
+  padding: 3px 7px;
+  border-radius: 3px;
 }
 
 .post ul, .post ol {
