@@ -1,0 +1,4 @@
+name: Face of Time
+markdown: redcarpet
+pygments: true
+permalink: /:year/:month/:title/
