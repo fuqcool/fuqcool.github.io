@@ -10,44 +10,44 @@ Since both statement will define a function named "foo", there should be no diff
 
 Suppose we want to define and run a function. We may write:
 
-{% highlight javascript %}
+``` javascript
 function foo() {
   console.log('it works');
 }
 
 foo();
-{% endhighlight %}
+```
 
 or
 
-{% highlight javascript %}
+``` javascript
 var foo = function () {
   console.log('it works');
 }
 
 foo();
-{% endhighlight %}
+```
 
 
 Undoubtly, both cases will work. However, if we put function invokation before definition, which may looks like:
 
-{% highlight javascript %}
+``` javascript
 foo();
 
 function foo() {
   console.log('it works');
 }
-{% endhighlight %}
+```
 
 or
 
-{% highlight javascript %}
+``` javascript
 foo();
 
 var foo = function () {
   console.log('it works');
 }
-{% endhighlight %}
+```
 
 The first case will work, but the second will crash with error message like "function foo is not defined."
 This seems wield, **how can we invoke a function without even defining it?**
