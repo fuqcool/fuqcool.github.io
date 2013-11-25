@@ -4,11 +4,13 @@ title: Face of Time
 ---
 
 <div id="home">
-  <h1>Posts</h1>
+  <h2>Posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> <span class="right">{{ post.date | date_to_string }}</span>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <span class="right">{{ post.date | date_to_string }}</span>
+      <div class="clear" />
     </li>
     {% endfor %}
   </ul>
