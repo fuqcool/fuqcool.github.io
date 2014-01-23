@@ -14,9 +14,9 @@ through object chains.
 Basically, it looks like this:
 
 ``` javascript
-    window.a = window.a || {};
-    window.a.b = window.a.b || {};
-    window.a.b.c = function () {};
+window.a = window.a || {};
+window.a.b = window.a.b || {};
+window.a.b.c = function () {};
 ```
 
 `window.a = window.a || {}` means that if `window.a` is already defined, assign it to `window.a`, 
