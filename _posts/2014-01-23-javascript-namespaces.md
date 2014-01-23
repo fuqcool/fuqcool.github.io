@@ -55,6 +55,7 @@ namespace('a.b.c', function () {
   return 'hello world';
 });
 
-console.assert(window.a.b.c === 'hello, world', 'should create namespace "a.b.c"');
+console.assert(window.a.b.c === 'hello, world', 
+               'should create namespace "a.b.c"');
 ```
 
