@@ -52,7 +52,7 @@ Here is how to use the function:
 
 ``` javascript
 namespace('a.b.c', function () {
-  return 'hello world';
+  return 'hello, world';
 });
 
 console.assert(window.a.b.c === 'hello, world', 
