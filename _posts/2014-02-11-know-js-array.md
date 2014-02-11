@@ -6,8 +6,9 @@ categories: javascript array
 
 ### Array is Object
 
-Yes, you know that. But do you know `typeof([]) === 'object'`? Wow, that's strange, shouldn't it be 'array'. Yes it is, but it is also an object.
-Then how should we test if an object is an array? Here is a trick that is used widely in javascript world:
+Yes, you know that, what you might not know is `typeof([1, 2, 3]) === 'object'`? 
+Wow, that's strange, shouldn't it be "array"? How should we test if an object is an array? 
+Here is a trick that is used widely in javascript world:
 
 ``` javascript
 if (Object.prototype.toString.call(a) === '[object Array]') {
