@@ -11,6 +11,16 @@ Then how should we test if an object is an array? Here is a trick that is used w
 
 ``` javascript
 if (Object.prototype.toString.call(a) === '[object Array]') {
+  ...## Things you need to know about javascript arrays
+
+
+### Array is Object
+
+Yes, you know that. But do you know `typeof([]) === 'object'`? Wow, that's strange, shouldn't it be 'array'. Yes it is, but it is also an object.
+Then how should we test if an object is an array? Here is a trick that is used widespreadly in javascript world:
+
+``` javascript
+if (Object.prototype.toString.call(a) === '[object Array]') {
   ...
 }
 
@@ -71,7 +81,7 @@ console.assert(typeof(a[2]) === 'undefined');
 In this case, the array will keep only elements from index **0 to newLen**, elements after that are abandoned.
 
 
-### **for in** trap
+### *for in* trap
 
 ``` javascript
 var a = [1, 2, 3, 4, 5];
@@ -82,7 +92,7 @@ for (var el in a) {
 }
 ```
 
-### **arguments** is not array
+### *arguments* is not array
 
 
 ### Stack vs Queue
@@ -104,4 +114,7 @@ a.unshift(0);
 if (a.length) {
   ...
 }
+```
+}
+
 ```
