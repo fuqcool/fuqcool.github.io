@@ -81,7 +81,7 @@ for (var el in a) {
 }
 ```
 
-If you run above code in browser, you will see *a.other* is also printed. *for in* will try to find all the properties and methods in the prototype chain, except for built-in Object methods. Its behavior does not change from object to array. Therefore, use *for loop* whenever possible.
+If you run above code in browser, you will see *a.other* is also printed. *for in* will try to find all the properties and methods in the prototype chain, except for built-in Object methods. This is somehow useful for objects, but definitely bad for arrays. Therefore, use normal *for loop* whenever possible.
 
 ### *arguments* is not array
 For every function, there is an *arguments* variable. It looks like an array, it has a length property and values in indexes. But it is not array, because it has no array methods.
