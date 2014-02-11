@@ -4,9 +4,6 @@ title: "Things you need to know about javascript arrays"
 categories: javascript array
 ---
 
-## Things you need to know about javascript arrays
-
-
 ### Array is Object
 
 Yes, you know that. But do you know `typeof([]) === 'object'`? Wow, that's strange, shouldn't it be 'array'. Yes it is, but it is also an object.
