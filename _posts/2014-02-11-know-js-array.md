@@ -11,16 +11,6 @@ Then how should we test if an object is an array? Here is a trick that is used w
 
 ``` javascript
 if (Object.prototype.toString.call(a) === '[object Array]') {
-  ...## Things you need to know about javascript arrays
-
-
-### Array is Object
-
-Yes, you know that. But do you know `typeof([]) === 'object'`? Wow, that's strange, shouldn't it be 'array'. Yes it is, but it is also an object.
-Then how should we test if an object is an array? Here is a trick that is used widespreadly in javascript world:
-
-``` javascript
-if (Object.prototype.toString.call(a) === '[object Array]') {
   ...
 }
 
@@ -29,9 +19,9 @@ if (Object.prototype.toString.call(a) === '[object Array]') {
 To understand code above, we first need to know what `Object.prototype.toString.call(a)` does. `Object.prototype.toString` is a method that,
 if not overriden, return string `[object TypeOfObj]`. Since array's `toString` has already been overriden to print array elements more friendly, 
 we need to get the original method that is located on object, and explicitly pass the object we want to test as the context. In other words, we have 
-forced javascript to execute the **toString** method before overrident.
+forced javascript to execute the *toString* method before overrident.
 
-Similar ways can be used on **Date**, **Function** and other types that cannot be tested using *typeof* operator.
+Similar ways can be used on *Date*, *Function* and other types that cannot be tested using *typeof* operator.
 
 ### Wield length property
 Look at code below:
@@ -47,7 +37,7 @@ console.assert(typeof(a[50]) === 'undefined');
 ```
 
 It can't be! Doesn't it even overflow? Well, again array is just object. What we can do on object can also be done on array. The only difference is that
-when array is assigned on an integer key, such as 100, it will check if it has exceed current length of the array, if so, the array length is updated to **101**.
+when array is assigned on an integer key, such as 100, it will check if it has exceed current length of the array, if so, the array length is updated to *101*.
 The slots on the vacancies is left *undefined*.
 
 This not the end.
@@ -114,7 +104,4 @@ a.unshift(0);
 if (a.length) {
   ...
 }
-```
-}
-
 ```
