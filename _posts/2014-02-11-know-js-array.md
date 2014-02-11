@@ -68,7 +68,7 @@ console.assert(a.length === 0);
 console.assert(typeof(a[2]) === 'undefined'); 
 ```
 
-In this case, the array will keep only elements from index **0 to newLen**, elements after that are abandoned.
+In this case, the array will keep only elements from index *0 to newLen*, elements after that are abandoned.
 
 
 ### *for in* trap
