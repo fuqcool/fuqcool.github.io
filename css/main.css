@@ -167,6 +167,7 @@ a:hover {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
+  font-size: 0.9em;
 }
 
 .post pre code {
