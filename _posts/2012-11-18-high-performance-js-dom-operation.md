@@ -13,4 +13,4 @@ category: javascript
 
 下面是我在jsFiddle上创建的实例：
 
-<iframe width="100%" height="500px" src="http://jsfiddle.net/fuqcool/Qdmnq/embedded/js,html,result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<embed type="text/html" width="100%" height="500px" src="http://jsfiddle.net/fuqcool/Qdmnq/embedded/js,html,result"></embed>
