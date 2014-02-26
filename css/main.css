@@ -17,11 +17,16 @@ body {
   font-family: Arial, sans-serif;
   font-size: 15px;
   text-align: center;
+  width: 80%;
+  max-width: 760px;
+  line-height: 1.5em;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {
   body {
     -webkit-text-size-adjust: none;
+    width: 100%;
   }
 }
 
@@ -73,17 +78,23 @@ a:hover {
 
 /*****************************************************************************/
 /*
-/* Site
+/* Container
 /*
 /*****************************************************************************/
 
-.site {
+.container {
   text-align: left;
-  width: 90%;
-  max-width: 760px;
-  line-height: 1.5em;
-  margin: 0 auto;
-  padding: 20px 0;
+  padding: 3%;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      box-shadow: none;
+  }
 }
 
 .header {
@@ -118,7 +129,7 @@ a:hover {
   font-size: 75%;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2em;
+  margin: 2em 0;
   overflow: hidden;
 }
 
