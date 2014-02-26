@@ -167,7 +167,7 @@ a:hover {
   background-color: #eef;
   padding: 3px 7px;
   border-radius: 3px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .post ul, .post ol {
