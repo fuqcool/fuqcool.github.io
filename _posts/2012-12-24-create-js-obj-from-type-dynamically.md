@@ -27,4 +27,4 @@ Type.apply(obj, args);
 
 下面是我在jsFiddle上创建的实例：
 
-<iframe style="max-width: 100%; width: 100%" height="650px" src="http://jsfiddle.net/fuqcool/73qaA/embedded/js,html,result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<embed type="text/html" width="100%" height="650px" src="http://jsfiddle.net/fuqcool/73qaA/embedded/js,html,result" allowfullscreen="allowfullscreen" frameborder="0"></embed>
