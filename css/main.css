@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #EEE;
+  background-color: #F8A347;
   font-family: Arial, sans-serif;
   font-size: 15px;
   text-align: center;
@@ -86,9 +86,9 @@ a:hover {
   text-align: left;
   padding: 3%;
   background-color: white;
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.8);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.8);
+  box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.8);
 }
 
 @media screen and (max-width: 600px) {
@@ -127,9 +127,8 @@ a:hover {
 
 .footer {
   font-size: 75%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin: 2em 0;
+  color: #333;
+  margin: 1.5em 0;
   overflow: hidden;
 }
 
