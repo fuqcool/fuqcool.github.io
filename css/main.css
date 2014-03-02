@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #F8A347;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 15px;
   text-align: center;
   width: 80%;
@@ -41,7 +41,6 @@ h2 { font-size: 1.3em; margin-bottom: 1em; }
 p {
     margin: 1em 0;
     font-size: 1em;
-    font-family: Helvetica, Arial, sans-serif;
     line-height: 28px;
     word-spacing: 0.1em;
 }
