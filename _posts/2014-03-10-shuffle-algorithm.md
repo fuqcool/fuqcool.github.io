@@ -20,10 +20,8 @@ int get_random(int beg, int end);
 下面是C代码：
 
 ``` c
-int shuffle(int[] a, int len)
-{
-    for (int i = len - 1; i > 0; i--)
-    {
+int shuffle(int[] a, int len) {
+    for (int i = len - 1; i > 0; i--) {
         // select an element from index 0 to i randomly;
         int index = get_random(0, i);
 
