@@ -171,10 +171,9 @@ a:hover {
 }
 
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #FCF7E7;
   padding: 3px 7px;
-  border-radius: 3px;
+  border-radius: 4px;
   overflow-x: auto;
 }
 
