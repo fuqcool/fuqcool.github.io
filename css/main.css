@@ -228,3 +228,25 @@ a:hover {
     padding: 0 6px;
     margin-left: 2px;
 }
+
+.github {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    background-image: url(../img/Github-Mark-32px.png);
+}
+
+.github:hover {
+    background-image: url(../img/Github-Mark-Light-32px.png);
+}
+
+.copyright {
+    top: -10px;
+    position: relative;
+}
+
+.license {
+    top: -3px;
+    position: relative;
+}
