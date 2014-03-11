@@ -234,11 +234,11 @@ a:hover {
     width: 32px;
     height: 32px;
     margin-left: 15px;
-    background-image: url(/img/Github-Mark-32px.png);
+    background-image: url(/img/GitHub-Mark-32px.png);
 }
 
 .github:hover {
-    background-image: url(/img/Github-Mark-Light-32px.png);
+    background-image: url(/img/GitHub-Mark-Light-32px.png);
 }
 
 .copyright {
