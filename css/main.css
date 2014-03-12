@@ -13,7 +13,8 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #F8A347;
+  background-image: url(../img/skulls.png);
+  background-repeat: repeat;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 15px;
   text-align: center;
@@ -31,6 +32,8 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
+    background-image: none;
+    background-color: #FCC089;
     -webkit-text-size-adjust: none;
     width: 100%;
   }
