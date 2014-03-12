@@ -58,7 +58,6 @@ img {
 /*****************************************************************************/
 .posts {
   list-style-type: none;
-  margin-bottom: 2em;
 }
 
 .posts li {
@@ -108,7 +107,7 @@ a:hover {
 }
 
 .header {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 #navigator {
@@ -132,7 +131,7 @@ a:hover {
 
 .meta {
   color: #aaa;
-  margin-right: 10px;
+  margin-right: 1em;
 }
 
 .footer {
@@ -180,7 +179,7 @@ a:hover {
 
 .post pre {
   background-color: #FCF7E7;
-  padding: 8px 10px;
+  padding: 0.7em;
   border-radius: 4px;
   overflow-x: auto;
 }
@@ -191,11 +190,11 @@ a:hover {
 
 .post p code {
   background-color: #FCF7E7;
-  padding: 2px 4px;
+  padding: 0.1em 0.4em;
   display: inline-block;
   line-height: 20px;
   border-radius: 4px;
-  margin: 0 3px;
+  margin: 0 0.2em;
 }
 
 .post pre code {
@@ -232,15 +231,15 @@ a:hover {
     background-color: #AAA;
     color: white;
     border-radius: 3px;
-    padding: 0 6px;
-    margin-left: 2px;
+    padding: 0 0.5em;
+    margin-right: 0.2em;
 }
 
 .github {
     display: inline-block;
     width: 32px;
     height: 32px;
-    margin-left: 15px;
+    margin-left: 1em;
     background-image: url(../img/GitHub-Mark-32px.png);
 }
 
