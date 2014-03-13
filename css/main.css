@@ -49,6 +49,12 @@ img {
   max-width: 100%;
 }
 
+blockquote {
+  background-color: #FCF7E7;
+  padding: 0.2em 0.7em;
+  border-left: solid 5px #FDB6A8;
+}
+
 /*****************************************************************************/
 /*
 /* Home
