@@ -10,7 +10,7 @@ categories: general
 
 算法的前提是有一个产生随机数的函数
 
-``` c
+``` c++
 // generates a random integer between beg and end.
 int get_random(int beg, int end);
 ```
@@ -19,7 +19,7 @@ int get_random(int beg, int end);
 
 下面是C代码：
 
-``` c
+``` c++
 int shuffle(int[] a, int len) {
     for (int i = len - 1; i > 0; i--) {
         // select an element from index 0 to i randomly;
