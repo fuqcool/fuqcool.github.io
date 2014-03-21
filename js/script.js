@@ -1,4 +1,9 @@
 (function () {
+  $('.collage').removeWhitespace().collagePlus({
+    targetHeight: 150,
+    allowPartialLastRow: true
+  });
+
   $('body').on('click', 'img.preview', function (evt) {
     var url = $(this).attr('url');
     showGallery(url);

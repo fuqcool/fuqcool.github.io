@@ -4,10 +4,9 @@ body {
     background-repeat: repeat;
     font-size: 100%;
 }
-.img-container {
-    float: left;
-    width: 14%;
-    margin: 10px 1.2%;
+
+.collage{
+    padding: 25px;
 }
 
 img {
@@ -15,9 +14,7 @@ img {
 }
 
 img.preview {
-    margin: auto;
     border: solid 2px white;
-    display: block;
 }
 
 img.preview:hover {
@@ -29,6 +26,8 @@ img.preview:hover {
     position: fixed;
     width: 100%;
     height: 100%;
+    left: 0;
+    top: 0;
 }
 
 .dropdown:after {
@@ -47,7 +46,6 @@ img.preview:hover {
 }
 
 .img-large {
-    max-height: 100%;
-    max-width: none;
+    width: 600px;
     margin: 0 auto;
 }
