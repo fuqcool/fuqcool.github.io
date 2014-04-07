@@ -1,4 +1,5 @@
 name: Face of Time
+description: Face of Time is a blog about Chiang Fu's thoughts of programming and life. Happy hacking.
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:title/
