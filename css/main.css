@@ -176,6 +176,14 @@ a:hover {
     margin-top: 1em;
 }
 
+.post a {
+  text-decoration: underline;
+}
+
+.post a:hover {
+  text-decoration: none;
+}
+
 .post code {
     font-size: 0.9em;
     font-family: Monaco, Consolas, Monospace;
