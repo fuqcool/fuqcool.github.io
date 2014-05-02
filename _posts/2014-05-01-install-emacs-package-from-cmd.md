@@ -36,4 +36,7 @@ To invoke the script, use command
 emacs --script install.el
 ```
 
-`--script` option tells emacs to run the given script without showing the GUI interface.
+`--script` option tells emacs to run the given script without showing the GUI interface,
+which is quite useful when we simply want to run some emacs-lisp outside Emacs.
+
+For more details of my Emacs configuration, please visit: [https://github.com/fuqcool/emacs-setting](https://github.com/fuqcool/emacs-setting)
