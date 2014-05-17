@@ -2,12 +2,14 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/css/pygments.css">
+<!-- syntax highlighting -->
+<link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/pygments.css" />
 
 <h2>{{ page.title }}</h2>
-<span class="meta">{{ page.date | date_to_string }}</span>
+<span class="meta"><i class="fa fa-calendar mr5"></i>{{ page.date | date_to_string }}</span>
 
-{% for category in page.categories %}<span class="category">{{category}}</span>{% endfor %}
+<span class="meta"><i class="fa fa-tags mr5"></i>{% for category in page.categories %}<span class="tag mr5">{{category}}</span>{% endfor %}</span>
 
 <div class="post">
   {{ content }}

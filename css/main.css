@@ -238,33 +238,23 @@ a:hover {
 }
 
 
-.category {
+.tag {
     display: inline-block;
-    background-color: #AAA;
+    background-color: #C7C1C1;
     color: white;
     border-radius: 3px;
     padding: 0 0.5em;
     margin-right: 0.2em;
 }
 
-.github {
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-    margin-left: 1em;
-    background-image: url(../img/GitHub-Mark-32px.png);
-}
-
-.github:hover {
-    background-image: url(../img/GitHub-Mark-Light-32px.png);
-}
-
 .copyright {
-    top: -10px;
-    position: relative;
 }
 
 .license {
     top: -3px;
     position: relative;
+}
+
+.mr5 {
+  margin-right: 5px;
 }
