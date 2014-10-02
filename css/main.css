@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: url(../img/skulls.png);
+  background-image: url(../img/bg.png);
   background-repeat: repeat;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 15px;
@@ -19,6 +19,7 @@ body {
   width: 80%;
   max-width: 760px;
   margin: 0 auto;
+  color: black;
 }
 
 @media screen and (max-width: 960px) {
@@ -68,9 +69,12 @@ blockquote {
   line-height: 1.75em;
 }
 
-a {
+.posts li a {
   text-decoration: none;
-  color: black;
+}
+
+a {
+  color: inherit;
 }
 
 a:hover {
@@ -98,7 +102,7 @@ a:hover {
 .container {
   text-align: left;
   padding: 3%;
-  background-color: white;
+  background-color: #f4f4f4;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.8);
   -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.8);
   box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.8);
@@ -140,7 +144,7 @@ a:hover {
 
 .footer {
   font-size: 75%;
-  color: #333;
+  color: #c7c7c7;
   margin: 1.5em 0;
   overflow: hidden;
 }
