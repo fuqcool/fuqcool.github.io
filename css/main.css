@@ -22,13 +22,7 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 960px) {
-  body {
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   body {
     -webkit-text-size-adjust: none;
     width: 100%;
@@ -112,15 +106,28 @@ a:hover {
 
 .header {
   margin-bottom: 2em;
+  border-bottom: 2px solid #ddd;
 }
 
 #navigator {
-  display: inline;
+  display: block;
 }
 
 #navigator li {
-    display: inline;
-    margin-right: 1.5em;
+  margin-right: 1.5em;
+  padding-bottom: 0.5em;
+  float: left;
+  list-style-type: none;
+  position: relative;
+  top: 2px;
+}
+
+#navigator li:hover {
+  border-bottom: 2px solid #bbb;
+}
+
+#navigator li.active {
+  border-bottom: 2px solid black;
 }
 
 #navigator li a {
