@@ -23,7 +23,11 @@ category: general
 ，Pygments就会被安装到刚才的`C:\PythonXX\Scripts`目录下。
 
 ### 打补丁
-Windows下，需要打一个补丁，才能让pygments正常工作。下载[补丁](https://gist.github.com/gists/1185645/download)，解压出patch文件到`C:\RubyXXX\lib\ruby\gems\1.x.x\gems\albino-1.3.3\lib`，运行
+Windows下，需要打一个补丁，才能让pygments正常工作。下载[补丁](https://gist.github.com/gists/1185645/download)，解压出patch文件到
+
+    C:\RubyXXX\lib\ruby\gems\1.x.x\gems\albino-1.3.3\lib
+
+然后运行
 
     patch -p1 < 0001-albino-windows-refactor.patch
 
