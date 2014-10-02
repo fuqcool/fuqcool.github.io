@@ -30,8 +30,6 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    background-image: none;
-    background-color: #FCC089;
     -webkit-text-size-adjust: none;
     width: 100%;
   }
@@ -69,16 +67,14 @@ blockquote {
   line-height: 1.75em;
 }
 
-.posts li a {
+a {
+  color: inherit;
+  transition: color 0.2s ease-out;
   text-decoration: none;
 }
 
-a {
-  color: inherit;
-}
-
 a:hover {
-  color: rgb(255, 102, 0);
+  color: #f39c12;
 }
 
 .posts span {
@@ -181,11 +177,11 @@ a:hover {
 }
 
 .post a {
-  text-decoration: underline;
+  color: #f39c12;
 }
 
 .post a:hover {
-  text-decoration: none;
+  color: #d35400;
 }
 
 .post code {
@@ -241,13 +237,7 @@ a:hover {
     clear: both;
 }
 
-
 .tag {
-    display: inline-block;
-    background-color: #C7C1C1;
-    color: white;
-    border-radius: 3px;
-    padding: 0 0.5em;
     margin-right: 0.2em;
 }
 
