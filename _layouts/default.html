@@ -16,6 +16,25 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
+
+    <!-- utilities -->
+    <script>
+      fot = {}
+
+      fot.navigate = function (name) {
+        var nav = document.getElementById('navigator')
+
+        if (name === 'posts') {
+          nav.children[0].classList.add('active')
+        } else if (name === 'about') {
+          nav.children[1].classList.add('active')
+        } else if (name === 'projects') {
+          nav.children[2].classList.add('active')
+        } else {
+          nav.children[0].classList.add('active')
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="container">
@@ -24,6 +43,7 @@
         <ul id="navigator">
           <li><a href="/">Posts</a></li>
           <li><a href="/about">About me</a></li>
+          <li><a href="/projects">Projects</a></li>
           <div class="clear"></div>
         </ul>
       </div> <!-- end header -->

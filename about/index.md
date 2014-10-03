@@ -18,6 +18,4 @@ fuqcool@gmail.com
 <a href="https://github.com/fuqcool"><i class="fa fa-github-square fa-2x mr5"></i></a>
 <a href="https://www.linkedin.com/pub/qiang-fu/89/402/536"><i class="fa fa-linkedin-square fa-2x mr5"></i></a>
 
-<script>
-document.getElementById('navigator').children[1].classList.add('active')
-</script>
+<script>fot.navigate('about')</script>
