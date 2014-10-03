@@ -43,9 +43,9 @@ img {
 }
 
 blockquote {
-  background-color: #FCF7E7;
+  background-color: #e0e0e0;
   padding: 0.2em 0.7em;
-  border-left: solid 5px #FDB6A8;
+  border-left: solid 5px #bdc3c7;
 }
 
 /*****************************************************************************/
@@ -120,24 +120,26 @@ a:hover {
   list-style-type: none;
   position: relative;
   top: 2px;
+  border-bottom: 2px solid #ddd;
 }
 
 #navigator li:hover {
-  border-bottom: 2px solid #bbb;
+  border-bottom-color: #bbb;
 }
 
 #navigator li.active {
-  border-bottom: 2px solid black;
+  border-bottom-color: black;
 }
 
 #navigator li a {
-    color: #888;
-    font-weight: bold;
-    font-size: 1.3em;
+  color: #888;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
-#navigator li a:hover {
-    color: #444;
+#navigator li:hover a,
+#navigator li.active a {
+  color: black;
 }
 
 .meta {
