@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Things you need to know about javascript arrays"
-categories: javascript array
+categories: javascript
 ---
 
 ### Array is Object
 
-Yes, you know that, what you might not know is `typeof([1, 2, 3]) === 'object'`? 
-Wow, that's strange, shouldn't it be "array"? How should we test if an object is an array? 
+Yes, you know that, what you might not know is `typeof([1, 2, 3]) === 'object'`?
+Wow, that's strange, shouldn't it be "array"? How should we test if an object is an array?
 Here is a trick that is used widely in javascript world:
 
 ``` javascript
@@ -18,8 +18,8 @@ if (Object.prototype.toString.call(a) === '[object Array]') {
 ```
 
 To understand code above, we first need to know what `Object.prototype.toString.call(a)` does. `Object.prototype.toString` is a method that,
-if not overridden, return string `[object TypeOfObj]`. Since array's `toString` has already been overridden to print array elements more friendly, 
-we need to get the original method that is located on object, and explicitly pass the object we want to test as the context. In other words, we have 
+if not overridden, return string `[object TypeOfObj]`. Since array's `toString` has already been overridden to print array elements more friendly,
+we need to get the original method that is located on object, and explicitly pass the object we want to test as the context. In other words, we have
 forced javascript to execute the *toString* method before overrident.
 
 Similar ways can be used on *Date*, *Function* and other types that cannot be tested using *typeof* operator.
@@ -66,7 +66,7 @@ var a = [1, 2, 3, 4, 5];
 a.length = 0;
 
 console.assert(a.length === 0);
-console.assert(typeof(a[2]) === 'undefined'); 
+console.assert(typeof(a[2]) === 'undefined');
 ```
 
 In this case, the array will keep only elements from index *0 to newLen*, elements after that are abandoned.
