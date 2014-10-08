@@ -59,6 +59,12 @@ blockquote {
 
 .posts li {
   line-height: 1.75em;
+  border-bottom: 1px dashed #ccc;
+  padding: 0.7em 0;
+}
+
+.posts li:last-child {
+  border-bottom: none;
 }
 
 a {
