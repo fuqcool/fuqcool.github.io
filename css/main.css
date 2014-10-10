@@ -29,15 +29,23 @@ body {
   }
 }
 
-h1 { font-size: 1.5em; }
-h2 { font-size: 1.3em; }
+h1 {
+  font-size: 1.5em;
+  margin: 1.2em 0;
+}
 
-h2, h3, h4 { margin-top: 1em; }
+h2 {
+  font-size: 1.3em;
+  margin: 1em 0;
+}
+
+h3, h4 {
+  margin: 1em 0 0.5em 0;
+}
 
 p {
     margin: 0.5em 0;
     font-size: 1em;
-    line-height: 28px;
     word-spacing: 0.1em;
 }
 
@@ -190,8 +198,9 @@ a:hover {
 
 /* standard */
 .post {
-    margin-bottom: 2em;
-    margin-top: 1em;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  line-height: 1.8em;
 }
 
 .post a {
@@ -203,8 +212,8 @@ a:hover {
 }
 
 .post code {
-    font-size: 0.9em;
-    font-family: Monaco, Consolas, Monospace;
+  font-size: 0.9em;
+  font-family: Monaco, Consolas, Monospace;
 }
 
 .post pre {
@@ -212,6 +221,7 @@ a:hover {
   padding: 0.7em;
   border-radius: 3px;
   overflow-x: auto;
+  line-height: 1.5em;
 }
 
 .post ul, .post ol {
@@ -220,11 +230,11 @@ a:hover {
 
 .post p code {
   background-color: #e0e0e0;
-  padding: 0.1em 0.4em;
+  padding: 0 0.4em;
   display: inline-block;
-  line-height: 20px;
-  border-radius: 4px;
+  border-radius: 3px;
   margin: 0 0.2em;
+  line-height: 1.5em;
 }
 
 .post pre code {
