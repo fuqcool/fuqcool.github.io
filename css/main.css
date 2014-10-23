@@ -44,9 +44,10 @@ h3, h4 {
 }
 
 p {
-    margin: 0.5em 0;
-    font-size: 1em;
-    word-spacing: 0.1em;
+  margin: 0.5em 0;
+  font-size: 1em;
+  word-spacing: 0.1em;
+  line-height: 1.8em;
 }
 
 img {
@@ -57,6 +58,13 @@ blockquote {
   background-color: #e0e0e0;
   padding: 0.2em 0.7em;
   border-left: solid 5px #bdc3c7;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 1.5em 0;
 }
 
 /*****************************************************************************/
