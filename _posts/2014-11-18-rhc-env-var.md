@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using enviroment variables in OpenShift
+title: Use enviroment variables in OpenShift
 categories: web
 ---
 
