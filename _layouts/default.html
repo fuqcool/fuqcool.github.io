@@ -26,10 +26,8 @@
 
         if (name === 'posts') {
           nav.children[0].classList.add('active')
-        } else if (name === 'projects') {
-          nav.children[1].classList.add('active')
         } else if (name === 'about') {
-          nav.children[2].classList.add('active')
+          nav.children[1].classList.add('active')
         } else {
           nav.children[0].classList.add('active')
         }
@@ -42,7 +40,6 @@
       <div class="header">
         <ul id="navigator">
           <li><a href="/">Posts</a></li>
-          <li><a href="/projects">Projects</a></li>
           <li><a href="/about">About me</a></li>
           <div class="clear"></div>
         </ul>
