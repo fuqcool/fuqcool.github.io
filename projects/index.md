@@ -5,7 +5,7 @@ title: My Projects
 
 I am an enthusiast of open source. I literally open sourced every line of code that I wrote for my self. Also, I am a contributor of **Angular.js**, **Atom**, and a bunch of other open source projects.
 
-Below are some projects that I am satisfied with.
+Below are some projects that I think are interesting.
 
 ### node-stringify ([source](https://github.com/fuqcool/node-stringify))
 A npm package to stringify almost any type of javascript object. And the output can be `eval`ed directly to get the original object.

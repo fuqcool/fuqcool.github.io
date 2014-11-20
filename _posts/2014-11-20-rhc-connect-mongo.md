@@ -1,3 +1,9 @@
+---
+layout: post
+title: How to connect mongodb on Openshift
+categories: web
+---
+
 Openshift provides us a lot of environment variables, we should use them whenever possible, so that we don't have to hard code anything in our code.
 
 The following two env variables can helps us connect to mongodb easily
