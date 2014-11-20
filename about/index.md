@@ -3,9 +3,19 @@ layout: default
 title: Face of Time
 ---
 
-I am Chiang Fu(付強), a graduate student of Computer Science in Northeastern University. I created this blog for
+Hi, my name is Chiang Fu(付強), the owner of this blog.
 
-Please feel free to contact me if you have any questions about me or this blog.
+Basically,
+
+I am a githuber and you can find my github link below.
+
+I love javascript and believe javascript is the future of all-purpose computing.
+
+I am a huge fan of Man Utd football club.
+
+I want to be a hacker, a real hacker.
+
+Please feel free to contact me if you have any questions about myself or this blog.
 
 ## Email
 fuqcool@gmail.com
