@@ -35,7 +35,7 @@ h1 {
 
 h2 {
   font-size: 1.3em;
-  margin: 1em 0;
+  margin: 2em 0 0.5em 0;
 }
 
 h3, h4 {
@@ -57,6 +57,7 @@ blockquote {
   background-color: #e0e0e0;
   padding: 0.2em 0.7em;
   border-left: solid 5px #bdc3c7;
+  border-radius: 3px;
 }
 
 hr {
@@ -163,7 +164,7 @@ a:hover {
 
 .footer {
   font-size: 75%;
-  color: #c7c7c7;
+  color: #aaa;
   margin: 1.5em 0;
   overflow: hidden;
 }
