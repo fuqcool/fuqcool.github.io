@@ -163,38 +163,13 @@ a:hover {
 }
 
 .footer {
-  font-size: 75%;
+  font-size: 0.75em;
   color: #aaa;
   margin: 1.5em 0;
-  overflow: hidden;
+  text-align: center;
 }
 
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
+/* posts */
 .post {
   margin-bottom: 2em;
   margin-top: 1em;
@@ -250,29 +225,20 @@ a:hover {
   background-color: #333;
 }
 
-
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 .tag {
-    margin-right: 0.2em;
-}
-
-.copyright {
-}
-
-.license {
-    top: -3px;
-    position: relative;
+  margin-right: 0.2em;
 }
 
 .mr5 {
