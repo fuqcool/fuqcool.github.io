@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "在Jekyll中使用Pygments(Windows)"
-category: general
+title: 在Jekyll中使用Pygments(Windows)
+category: tech
 ---
 
 > 先吐槽一下，在windows上搭建各种开发环境，绝对是一种痛苦。要不是Linux上没有好用的输入法，而我又买不起Mac，打死我也不在windows上折腾这个东东。

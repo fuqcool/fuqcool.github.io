@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Debug coffeescript using node inspector"
-categories: general
+title: Debug coffeescript using node inspector
+categories: tech
 ---
 
 First, make sure node inspector is running.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "洗牌算法的一种实现"
-categories: general
+title: 洗牌算法的一种实现
+categories: tech
 ---
 
 最近自己在做一个小的程序，需要把一个集合里面的元素全部随机地打散。自己想了一个方法，复杂度是n，觉得不太快。后来参照了一下python关于shuffle的算法，发现我的方法跟它的是一样的。

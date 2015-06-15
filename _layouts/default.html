@@ -24,9 +24,11 @@
       fot.navigate = function (name) {
         var nav = document.getElementById('navigator')
 
-        if (name === 'posts') {
+        if (name === 'life') {
           nav.children[0].classList.add('active')
         } else if (name === 'about') {
+			    nav.children[2].classList.add('active')
+			  } else if (name === 'tech') {
           nav.children[1].classList.add('active')
         } else {
           nav.children[0].classList.add('active')
@@ -39,7 +41,8 @@
 
       <div class="header">
         <ul id="navigator">
-          <li><a href="/">Posts</a></li>
+          <li><a href="/">Life</a></li>
+					<li><a href="/tech">Technic</a></li>
           <li><a href="/about">Readme</a></li>
           <div class="clear"></div>
         </ul>
