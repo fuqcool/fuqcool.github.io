@@ -52,6 +52,12 @@
 
     </div> <!-- end container -->
 
-    <div class="footer">&copy; 2012-2014 fuqcool</div>
+    <div class="footer">&copy; 2012-<span id="current-year"></span> fuqcool</div>
+
+		<script>
+			var now = new Date()
+      document.getElementById('current-year').innerHTML = now.getFullYear()
+		</script>
+
   </body>
 </html>
