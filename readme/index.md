@@ -23,4 +23,4 @@ Please feel free to contact me if you have any questions about myself or this bl
 ## Links
 <a href="https://github.com/fuqcool"><i class="fa fa-2x fa-github mr5"></i></a> <a href="https://www.linkedin.com/pub/qiang-fu/89/402/536"><i class="fa fa-linkedin fa-2x"></i></a>
 
-<script>fot.navigate('about')</script>
+<script>fot.navigate('readme')</script>
